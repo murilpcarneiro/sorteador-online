@@ -12,3 +12,7 @@ body {
 label{
   width: 30px;
 }
+
+input {
+  scale: 1.1;
+}

@@ -14,8 +14,8 @@
 </head>
 
 <body class="bg-dark text-white">
-  <h1 class="p-4">Sorteador Online</h1>
-  <h2>Digite o Intervalo do Sorteio:</h2>
+  <h1 class="p-4 text-success">Sorteador Online</h1>
+  <h2 class="text-info">Digite o Intervalo do Sorteio:</h2>
   <div class="d-flex p-3">
     <div class="p-2">
       <label for="min">Min</label>
@@ -26,9 +26,11 @@
       <input type="number" id="max" class="intervalo" name="max" value="0">
     </div>
   </div>
+  <h2 class="text-info">Digite quantos números vão ser sorteados: </h2>
+  <input type="number" id="quantidade" name="quantidade" value="1" class="intervalo mb-3">
   <button class="btn btn-success" type="submit" id="btn">Gerar!</button>
-  <h2 class="p-4 text-danger">O Número Sorteado foi:</h2>
-  <div id="resultado"></div>
+  <h2 class="p-4 text-danger">Resultado do Sorteio:</h2>
+  <div id="resultado" class="text-warning"></div>
 
 
 </body>
